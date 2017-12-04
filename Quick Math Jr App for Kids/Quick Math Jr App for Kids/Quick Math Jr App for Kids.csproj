@@ -45,17 +45,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Mắt.cs">
+    <Compile Include="Mắt1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mắt.Designer.cs">
-      <DependentUpon>Mắt.cs</DependentUpon>
+    <Compile Include="Mắt1.Designer.cs">
+      <DependentUpon>Mắt1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Nhà.cs">
+    <Compile Include="Nhà1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Nhà.Designer.cs">
-      <DependentUpon>Nhà.cs</DependentUpon>
+    <Compile Include="Nhà1.Designer.cs">
+      <DependentUpon>Nhà1.cs</DependentUpon>
     </Compile>
     <Compile Include="Quick Math Jr App for Kids.cs">
       <SubType>Form</SubType>
@@ -65,23 +65,41 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Thuyền.cs">
+    <Compile Include="Thuyền1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Thuyền.Designer.cs">
-      <DependentUpon>Thuyền.cs</DependentUpon>
+    <Compile Include="Thuyền1.Designer.cs">
+      <DependentUpon>Thuyền1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Xe_Bus.cs">
+    <Compile Include="Thuyền2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Xe_Bus.Designer.cs">
-      <DependentUpon>Xe_Bus.cs</DependentUpon>
+    <Compile Include="Thuyền2.Designer.cs">
+      <DependentUpon>Thuyền2.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Mắt.resx">
-      <DependentUpon>Mắt.cs</DependentUpon>
+    <Compile Include="Xe_Bus1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xe_Bus1.Designer.cs">
+      <DependentUpon>Xe_Bus1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xe_Bus2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xe_Bus2.Designer.cs">
+      <DependentUpon>Xe_Bus2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xe_Bus3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xe_Bus3.Designer.cs">
+      <DependentUpon>Xe_Bus3.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Mắt1.resx">
+      <DependentUpon>Mắt1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Nhà.resx">
-      <DependentUpon>Nhà.cs</DependentUpon>
+    <EmbeddedResource Include="Nhà1.resx">
+      <DependentUpon>Nhà1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -96,11 +114,17 @@
     <EmbeddedResource Include="Quick Math Jr App for Kids.resx">
       <DependentUpon>Quick Math Jr App for Kids.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Thuyền.resx">
-      <DependentUpon>Thuyền.cs</DependentUpon>
+    <EmbeddedResource Include="Thuyền1.resx">
+      <DependentUpon>Thuyền1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Xe_Bus.resx">
-      <DependentUpon>Xe_Bus.cs</DependentUpon>
+    <EmbeddedResource Include="Xe_Bus1.resx">
+      <DependentUpon>Xe_Bus1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xe_Bus2.resx">
+      <DependentUpon>Xe_Bus2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xe_Bus3.resx">
+      <DependentUpon>Xe_Bus3.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

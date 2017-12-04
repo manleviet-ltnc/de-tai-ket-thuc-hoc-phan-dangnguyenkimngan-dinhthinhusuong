@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Quick_Math_Jr_App_for_Kids
 {
-    public partial class Nhà : Form
+    public partial class Thuyền2 : Form
     {
-        public Nhà()
+        public Thuyền2()
         {
             InitializeComponent();
         }

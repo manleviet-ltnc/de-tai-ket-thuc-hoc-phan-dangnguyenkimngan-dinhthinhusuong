@@ -1,6 +1,6 @@
 ﻿namespace Quick_Math_Jr_App_for_Kids
 {
-    partial class Nhà
+    partial class Nhà1
     {
         /// <summary>
         /// Required designer variable.

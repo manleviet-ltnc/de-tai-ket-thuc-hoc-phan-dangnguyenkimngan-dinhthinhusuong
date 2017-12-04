@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace Quick_Math_Jr_App_for_Kids
 {
-    public partial class Mắt : Form
+    public partial class Xe_Bus2 : Form
     {
-        public Mắt()
+        public Xe_Bus2()
         {
             InitializeComponent();
+        }
+
+        private void Next_Click(object sender, EventArgs e)
+        {
+            Xe_Bus3 xebus = new Xe_Bus3();
+            xebus.Show();
+            this.Close();
         }
     }
 }

@@ -25,26 +25,26 @@ namespace Quick_Math_Jr_App_for_Kids
 
         private void mnuXeBus_Click(object sender, EventArgs e)
         {
-            Xe_Bus xebus = new Xe_Bus();
-            xebus.ShowDialog();
+            Xe_Bus1 xebus = new Xe_Bus1();
+            xebus.Show();
         }
 
         private void mnuNha_Click(object sender, EventArgs e)
         {
-            Nhà nha = new Nhà();
-            nha.ShowDialog();
+            Nhà1 nha = new Nhà1();
+            nha.Show();
         }
 
         private void mnuThuyen_Click(object sender, EventArgs e)
         {
-            Thuyền thuyen = new Thuyền();
-            thuyen.ShowDialog();
+            Thuyền1 thuyen = new Thuyền1();
+            thuyen.Show();
         }
 
         private void mnuMat_Click(object sender, EventArgs e)
         {
-            Mắt mat = new Mắt();
-            mat.ShowDialog();
+            Mắt1 mat = new Mắt1();
+            mat.Show();
         }
     }
 }
