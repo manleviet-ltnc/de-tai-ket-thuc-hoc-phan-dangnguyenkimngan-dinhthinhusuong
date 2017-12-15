@@ -1,6 +1,6 @@
 ﻿namespace Quick_Math_Jr_App_for_Kids
 {
-    partial class Xe_Bus3
+    partial class Thuyen2
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // Xe_Bus3
+            // Thuyen2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(578, 367);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Name = "Xe_Bus3";
-            this.Text = "Xe_Bus3";
+            this.ClientSize = new System.Drawing.Size(454, 381);
+            this.Name = "Thuyen2";
+            this.Text = "Thuyen2";
             this.ResumeLayout(false);
 
         }

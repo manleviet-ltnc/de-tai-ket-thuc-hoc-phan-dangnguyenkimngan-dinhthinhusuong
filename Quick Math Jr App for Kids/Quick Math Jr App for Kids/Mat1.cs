@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace Quick_Math_Jr_App_for_Kids
 {
-    public partial class Thuyền1 : Form
+    public partial class btnMat1 : Form
     {
-        public Thuyền1()
+        public btnMat1()
         {
             InitializeComponent();
         }
 
-        private void btnNext_Click(object sender, EventArgs e)
+        private void btncaudung_Click(object sender, EventArgs e)
         {
-            Thuyền2 xebus = new Thuyền2();
-            xebus.Show();
+            btnMat2 mat2 = new btnMat2();
+            mat2.Show();
             this.Close();
         }
     }

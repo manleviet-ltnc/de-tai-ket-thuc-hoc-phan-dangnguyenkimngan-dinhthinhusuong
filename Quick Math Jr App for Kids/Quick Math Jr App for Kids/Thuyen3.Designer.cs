@@ -1,6 +1,6 @@
 ﻿namespace Quick_Math_Jr_App_for_Kids
 {
-    partial class Thuyền2
+    partial class Thuyen3
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Thuyền2";
+            this.Text = "Thuyen3";
         }
 
         #endregion

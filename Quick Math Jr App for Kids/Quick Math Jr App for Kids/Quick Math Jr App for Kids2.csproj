@@ -45,41 +45,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Mat1.cs">
+    <Compile Include="Mắt1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mat1.Designer.cs">
-      <DependentUpon>Mat1.cs</DependentUpon>
+    <Compile Include="Mắt1.Designer.cs">
+      <DependentUpon>Mắt1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Mat2.cs">
+    <Compile Include="Nhà1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mat2.Designer.cs">
-      <DependentUpon>Mat2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Mat3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mat3.Designer.cs">
-      <DependentUpon>Mat3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Nha1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Nha1.Designer.cs">
-      <DependentUpon>Nha1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Nha2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Nha2.Designer.cs">
-      <DependentUpon>Nha2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Nha3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Nha3.Designer.cs">
-      <DependentUpon>Nha3.cs</DependentUpon>
+    <Compile Include="Nhà1.Designer.cs">
+      <DependentUpon>Nhà1.cs</DependentUpon>
     </Compile>
     <Compile Include="Quick Math Jr App for Kids.cs">
       <SubType>Form</SubType>
@@ -89,23 +65,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Thuyen1.cs">
+    <Compile Include="Thuyền1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Thuyen1.Designer.cs">
-      <DependentUpon>Thuyen1.cs</DependentUpon>
+    <Compile Include="Thuyền1.Designer.cs">
+      <DependentUpon>Thuyền1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Thuyen2.cs">
+    <Compile Include="Thuyền2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Thuyen2.Designer.cs">
-      <DependentUpon>Thuyen2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Thuyen3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Thuyen3.Designer.cs">
-      <DependentUpon>Thuyen3.cs</DependentUpon>
+    <Compile Include="Thuyền2.Designer.cs">
+      <DependentUpon>Thuyền2.cs</DependentUpon>
     </Compile>
     <Compile Include="Xe_Bus1.cs">
       <SubType>Form</SubType>
@@ -125,20 +95,11 @@
     <Compile Include="Xe_Bus3.Designer.cs">
       <DependentUpon>Xe_Bus3.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Mat1.resx">
-      <DependentUpon>Mat1.cs</DependentUpon>
+    <EmbeddedResource Include="Mắt1.resx">
+      <DependentUpon>Mắt1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Mat2.resx">
-      <DependentUpon>Mat2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Nha1.resx">
-      <DependentUpon>Nha1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Nha2.resx">
-      <DependentUpon>Nha2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Nha3.resx">
-      <DependentUpon>Nha3.cs</DependentUpon>
+    <EmbeddedResource Include="Nhà1.resx">
+      <DependentUpon>Nhà1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -153,11 +114,8 @@
     <EmbeddedResource Include="Quick Math Jr App for Kids.resx">
       <DependentUpon>Quick Math Jr App for Kids.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Thuyen1.resx">
-      <DependentUpon>Thuyen1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Thuyen2.resx">
-      <DependentUpon>Thuyen2.cs</DependentUpon>
+    <EmbeddedResource Include="Thuyền1.resx">
+      <DependentUpon>Thuyền1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Xe_Bus1.resx">
       <DependentUpon>Xe_Bus1.cs</DependentUpon>
@@ -210,9 +168,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\6948294-1x1-700x7002.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\6948294-1x1-700x7003.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

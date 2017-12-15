@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace Quick_Math_Jr_App_for_Kids
 {
-    public partial class Thuyền2 : Form
+    public partial class btnNha3 : Form
     {
-        public Thuyền2()
+        public btnNha3()
         {
             InitializeComponent();
+        }
+
+        private void btncaudung_Click(object sender, EventArgs e)
+        {
+            Form1 trangchu = new Form1();
+            trangchu.Show();
+            this.Close();
         }
     }
 }

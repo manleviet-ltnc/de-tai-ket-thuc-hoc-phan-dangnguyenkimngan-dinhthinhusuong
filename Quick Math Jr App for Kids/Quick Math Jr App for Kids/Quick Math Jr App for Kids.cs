@@ -31,19 +31,19 @@ namespace Quick_Math_Jr_App_for_Kids
 
         private void mnuNha_Click(object sender, EventArgs e)
         {
-            Nhà1 nha = new Nhà1();
+            Nha1 nha = new Nha1();
             nha.Show();
         }
 
         private void mnuThuyen_Click(object sender, EventArgs e)
         {
-            Thuyền1 thuyen = new Thuyền1();
+            Thuyen1 thuyen = new Thuyen1();
             thuyen.Show();
         }
 
         private void mnuMat_Click(object sender, EventArgs e)
         {
-            Mắt1 mat = new Mắt1();
+            btnMat1 mat = new btnMat1();
             mat.Show();
         }
     }
