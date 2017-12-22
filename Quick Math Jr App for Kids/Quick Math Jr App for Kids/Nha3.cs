@@ -23,10 +23,5 @@ namespace Quick_Math_Jr_App_for_Kids
             trangchu.Show();
             this.Close();
         }
-
-        private void btnNha3_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
