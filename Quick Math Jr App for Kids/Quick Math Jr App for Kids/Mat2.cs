@@ -16,5 +16,12 @@ namespace Quick_Math_Jr_App_for_Kids
         {
             InitializeComponent();
         }
+
+        private void btncaudung_Click(object sender, EventArgs e)
+        {
+                btnMat3 mat3 = new btnMat3();
+                mat3.Show();
+                this.Close();
+        }
     }
 }

@@ -118,7 +118,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.HotTrack;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label1.Location = new System.Drawing.Point(468, 45);
+            this.label1.Location = new System.Drawing.Point(526, 34);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(63, 69);
@@ -128,7 +128,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Quick_Math_Jr_App_for_Kids.Properties.Resources._6948294_1x1_700x7001;
-            this.pictureBox2.Location = new System.Drawing.Point(104, 337);
+            this.pictureBox2.Location = new System.Drawing.Point(75, 337);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(56, 50);
             this.pictureBox2.TabIndex = 17;
@@ -138,7 +138,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Quick_Math_Jr_App_for_Kids.Properties.Resources._6948294_1x1_700x7001;
-            this.pictureBox3.Location = new System.Drawing.Point(166, 337);
+            this.pictureBox3.Location = new System.Drawing.Point(139, 337);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(56, 50);
             this.pictureBox3.TabIndex = 16;
@@ -148,7 +148,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Quick_Math_Jr_App_for_Kids.Properties.Resources._6948294_1x1_700x7001;
-            this.pictureBox4.Location = new System.Drawing.Point(228, 337);
+            this.pictureBox4.Location = new System.Drawing.Point(203, 337);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(56, 50);
             this.pictureBox4.TabIndex = 15;
@@ -158,7 +158,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::Quick_Math_Jr_App_for_Kids.Properties.Resources._6948294_1x1_700x7001;
-            this.pictureBox5.Location = new System.Drawing.Point(290, 337);
+            this.pictureBox5.Location = new System.Drawing.Point(266, 337);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(56, 50);
             this.pictureBox5.TabIndex = 14;
@@ -168,7 +168,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Quick_Math_Jr_App_for_Kids.Properties.Resources._6948294_1x1_700x7001;
-            this.pictureBox6.Location = new System.Drawing.Point(352, 337);
+            this.pictureBox6.Location = new System.Drawing.Point(329, 337);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(56, 50);
             this.pictureBox6.TabIndex = 13;
@@ -178,7 +178,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::Quick_Math_Jr_App_for_Kids.Properties.Resources._6948294_1x1_700x7001;
-            this.pictureBox7.Location = new System.Drawing.Point(417, 337);
+            this.pictureBox7.Location = new System.Drawing.Point(391, 337);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(56, 50);
             this.pictureBox7.TabIndex = 12;
@@ -188,9 +188,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Quick_Math_Jr_App_for_Kids.Properties.Resources._6948294_1x1_700x7001;
-            this.pictureBox1.Location = new System.Drawing.Point(42, 337);
+            this.pictureBox1.Location = new System.Drawing.Point(16, 337);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(56, 50);
+            this.pictureBox1.Size = new System.Drawing.Size(51, 50);
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseDown);
@@ -198,7 +198,7 @@
             // Next
             // 
             this.Next.Image = global::Quick_Math_Jr_App_for_Kids.Properties.Resources.images__7_;
-            this.Next.Location = new System.Drawing.Point(417, 137);
+            this.Next.Location = new System.Drawing.Point(480, 136);
             this.Next.Margin = new System.Windows.Forms.Padding(4);
             this.Next.Name = "Next";
             this.Next.Size = new System.Drawing.Size(160, 158);
@@ -228,12 +228,14 @@
             this.button1.Size = new System.Drawing.Size(393, 279);
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button1_MouseDown);
             // 
             // Xe_Bus2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(598, 408);
+            this.ClientSize = new System.Drawing.Size(677, 405);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox4);
@@ -253,7 +255,6 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Xe_Bus2";
             this.Text = "Level 2";
-            this.Load += new System.EventHandler(this.Xe_Bus2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();

@@ -16,5 +16,12 @@ namespace Quick_Math_Jr_App_for_Kids
         {
             InitializeComponent();
         }
+
+        private void btncaudung_Click(object sender, EventArgs e)
+        {
+            Form1 trangchu = new Form1();
+            trangchu.Show();
+            this.Close();
+        }
     }
 }

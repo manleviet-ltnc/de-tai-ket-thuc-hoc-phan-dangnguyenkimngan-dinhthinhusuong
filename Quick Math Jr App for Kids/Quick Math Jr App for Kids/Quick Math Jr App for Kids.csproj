@@ -131,6 +131,9 @@
     <EmbeddedResource Include="Mat2.resx">
       <DependentUpon>Mat2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Mat3.resx">
+      <DependentUpon>Mat3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Nha1.resx">
       <DependentUpon>Nha1.cs</DependentUpon>
     </EmbeddedResource>
@@ -158,6 +161,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Thuyen2.resx">
       <DependentUpon>Thuyen2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thuyen3.resx">
+      <DependentUpon>Thuyen3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Xe_Bus1.resx">
       <DependentUpon>Xe_Bus1.cs</DependentUpon>

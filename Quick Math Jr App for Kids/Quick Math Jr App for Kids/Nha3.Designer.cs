@@ -114,6 +114,7 @@
             this.Controls.Add(this.button1);
             this.Name = "btnNha3";
             this.Text = "Nha3";
+            this.Load += new System.EventHandler(this.btnNha3_Load);
             this.ResumeLayout(false);
 
         }

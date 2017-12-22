@@ -16,5 +16,12 @@ namespace Quick_Math_Jr_App_for_Kids
         {
             InitializeComponent();
         }
+
+        private void btncaudung_Click(object sender, EventArgs e)
+        {
+            Thuyen3 thuyen = new Thuyen3();
+            thuyen.Show();
+            this.Close();
+        }
     }
 }

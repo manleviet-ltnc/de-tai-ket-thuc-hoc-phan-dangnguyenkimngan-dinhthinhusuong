@@ -93,5 +93,15 @@ namespace Quick_Math_Jr_App_for_Kids
             xebus.Show();
             this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_MouseDown(object sender, MouseEventArgs e)
+        {
+
+        }
     }
 }
