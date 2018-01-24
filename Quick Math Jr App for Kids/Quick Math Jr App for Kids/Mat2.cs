@@ -26,7 +26,7 @@ namespace Quick_Math_Jr_App_for_Kids
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Không đúng");
+            MessageBox.Show("Không đúng!!!");
         }
 
         private void btnquaylai_Click(object sender, EventArgs e)

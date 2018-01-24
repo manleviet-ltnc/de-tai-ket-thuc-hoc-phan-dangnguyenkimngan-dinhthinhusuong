@@ -38,5 +38,10 @@ namespace Quick_Math_Jr_App_for_Kids
             lv4.Show();
             this.Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Không đúng!!!");
+        }
     }
 }

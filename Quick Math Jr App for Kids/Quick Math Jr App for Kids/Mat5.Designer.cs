@@ -67,6 +67,7 @@
             this.button2.TabIndex = 20;
             this.button2.Text = "6";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // btncaudung
             // 
@@ -88,6 +89,7 @@
             this.button4.TabIndex = 18;
             this.button4.Text = "4";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -98,6 +100,7 @@
             this.button3.TabIndex = 17;
             this.button3.Text = "7";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button2_Click);
             // 
             // button6
             // 
