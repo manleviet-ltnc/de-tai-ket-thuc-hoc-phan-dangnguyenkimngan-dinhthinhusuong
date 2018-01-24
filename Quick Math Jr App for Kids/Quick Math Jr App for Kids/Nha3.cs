@@ -19,9 +19,28 @@ namespace Quick_Math_Jr_App_for_Kids
 
         private void btncaudung_Click(object sender, EventArgs e)
         {
-            Form1 trangchu = new Form1();
-            trangchu.Show();
+            btnnha4 nha4 = new btnnha4();
+            nha4.Show();
             this.Close();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            btnNha2 lv2 = new btnNha2();
+            lv2.Show();
+            this.Close();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            btnformchinh form = new btnformchinh();
+            form.Show();
+            this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Không đúng!!!");
         }
     }
 }

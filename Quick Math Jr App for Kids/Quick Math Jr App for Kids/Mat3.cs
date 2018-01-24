@@ -19,9 +19,21 @@ namespace Quick_Math_Jr_App_for_Kids
 
         private void btncaudung_Click(object sender, EventArgs e)
         {
+            //MessageBox.Show("Chúc mừng bạn đã hoàn thành");
+            btnmat4 mat4 = new btnmat4();
+            mat4.Show();
+            this.Close();
+        }
 
-            Form1 trangchu = new Form1();
-            trangchu.Show();
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Không đúng");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            btnMat2 lv2 = new btnMat2();
+            lv2.Show();
             this.Close();
         }
     }

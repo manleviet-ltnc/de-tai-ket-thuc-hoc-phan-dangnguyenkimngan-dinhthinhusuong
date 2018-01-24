@@ -21,7 +21,6 @@ namespace Quick_Math_Jr_App_for_Kids
         {
             InitializeComponent();
             pictureBox1.AllowDrop = true;
-            pictureBox8.AllowDrop = true;
             pictureBox9.AllowDrop = true;
             pictureBox10.AllowDrop = true;
             pictureBox11.AllowDrop = true;
@@ -55,16 +54,11 @@ namespace Quick_Math_Jr_App_for_Kids
         private void Level2_Click(object sender, EventArgs e)
         {
             pictureBox1.AllowDrop = true;
-            pictureBox8.AllowDrop = true;
             pictureBox9.AllowDrop = true;
             pictureBox10.AllowDrop = true;
             pictureBox11.AllowDrop = true;
             pictureBox12.AllowDrop = true;
             pictureBox13.AllowDrop = true;
-
-            pictureBox8.MouseDown += new MouseEventHandler(pictureBox1_MouseDown);
-            pictureBox8.DragEnter += new DragEventHandler(pictureBox1_DragEnter);
-            pictureBox8.DragDrop += new DragEventHandler(pictureBox1_DragDrop);
 
             pictureBox9.MouseDown += new MouseEventHandler(pictureBox1_MouseDown);
             pictureBox9.DragEnter += new DragEventHandler(pictureBox1_DragEnter);
@@ -94,14 +88,18 @@ namespace Quick_Math_Jr_App_for_Kids
             this.Close();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-
+            Xe_Bus1 lv1 = new Xe_Bus1();
+            lv1.Show();
+            this.Close();
         }
 
-        private void button1_MouseDown(object sender, MouseEventArgs e)
+        private void button6_Click(object sender, EventArgs e)
         {
-
+            btnformchinh form = new btnformchinh();
+            form.Show();
+            this.Close();
         }
     }
 }

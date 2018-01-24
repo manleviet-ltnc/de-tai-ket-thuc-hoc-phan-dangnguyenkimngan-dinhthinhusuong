@@ -49,7 +49,7 @@ namespace Quick_Math_Jr_App_for_Kids
         private void pictureBox1_DragDrop(object sender, DragEventArgs e)
         {
            Button pb = (Button)sender;
-            pb.Image = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
+           pb.Image = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
         }
 
         private void Level1_Click(object sender, EventArgs e)
@@ -77,6 +77,13 @@ namespace Quick_Math_Jr_App_for_Kids
         {
             Xe_Bus2 xebus = new Xe_Bus2();
             xebus.Show();
+            this.Close();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            btnformchinh form = new btnformchinh();
+            form.Show();
             this.Close();
         }
     }

@@ -45,6 +45,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form chính.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form chính.Designer.cs">
+      <DependentUpon>Form chính.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSai.Designer.cs">
+      <DependentUpon>FormSai.cs</DependentUpon>
+    </Compile>
     <Compile Include="Mat1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +75,18 @@
     <Compile Include="Mat3.Designer.cs">
       <DependentUpon>Mat3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mat4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mat4.Designer.cs">
+      <DependentUpon>Mat4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mat5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mat5.Designer.cs">
+      <DependentUpon>Mat5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Nha1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +104,18 @@
     </Compile>
     <Compile Include="Nha3.Designer.cs">
       <DependentUpon>Nha3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nha4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nha4.Designer.cs">
+      <DependentUpon>Nha4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nha5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nha5.Designer.cs">
+      <DependentUpon>Nha5.cs</DependentUpon>
     </Compile>
     <Compile Include="Quick Math Jr App for Kids.cs">
       <SubType>Form</SubType>
@@ -107,6 +143,30 @@
     <Compile Include="Thuyen3.Designer.cs">
       <DependentUpon>Thuyen3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Thuyen4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thuyen4.Designer.cs">
+      <DependentUpon>Thuyen4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thuyen5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thuyen5.Designer.cs">
+      <DependentUpon>Thuyen5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xe_Bus4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xe_Bus4.Designer.cs">
+      <DependentUpon>Xe_Bus4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xe_Bus5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xe_Bus5.Designer.cs">
+      <DependentUpon>Xe_Bus5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Xe_Bus1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +185,12 @@
     <Compile Include="Xe_Bus3.Designer.cs">
       <DependentUpon>Xe_Bus3.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Form chính.resx">
+      <DependentUpon>Form chính.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSai.resx">
+      <DependentUpon>FormSai.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Mat1.resx">
       <DependentUpon>Mat1.cs</DependentUpon>
     </EmbeddedResource>
@@ -134,6 +200,12 @@
     <EmbeddedResource Include="Mat3.resx">
       <DependentUpon>Mat3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Mat4.resx">
+      <DependentUpon>Mat4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mat5.resx">
+      <DependentUpon>Mat5.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Nha1.resx">
       <DependentUpon>Nha1.cs</DependentUpon>
     </EmbeddedResource>
@@ -142,6 +214,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Nha3.resx">
       <DependentUpon>Nha3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nha4.resx">
+      <DependentUpon>Nha4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nha5.resx">
+      <DependentUpon>Nha5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -164,6 +242,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Thuyen3.resx">
       <DependentUpon>Thuyen3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thuyen4.resx">
+      <DependentUpon>Thuyen4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thuyen5.resx">
+      <DependentUpon>Thuyen5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xe_Bus4.resx">
+      <DependentUpon>Xe_Bus4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xe_Bus5.resx">
+      <DependentUpon>Xe_Bus5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Xe_Bus1.resx">
       <DependentUpon>Xe_Bus1.cs</DependentUpon>
@@ -219,6 +309,90 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\6948294-1x1-700x7003.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hqdefault %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leuke-het-beeldverhaalreeks-van-babypapegaaien-27502884.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10b272ffe80f80d4b9299d018cf85b2e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31216716-illustration-of-many-animals-in-a-pond.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vịt xam.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ugly_duckling_and_his_family_by_hamabear-d4uykkt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock-vector-mother-duck-and-ducklings-mallard-duck-and-baby-ducklings-262142633.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17880619-vector-cartoon-yellow-school-bus-isolated-on-white-background-Stock-Photo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\63657270-school-bus-cartoon-of-yellow-color-on-a-white-background--Stock-Photo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17880619-vector-cartoon-yellow-school-bus-isolated-on-white-background-Stock-Photo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus-304248__340.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %287%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %288%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %289%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plat-direction-tourner-simple-signe-clipart-vectorisé_csp39412018.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\voyage_drawing_sailboat_kid_sea_icons_cartoon_design_34425.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\28402967-vector-flat-design-container-ship-boat-transportation-icon-black--Stock-Photo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ea1baf163e05e94371301a69378dcfb5.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

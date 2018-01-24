@@ -23,5 +23,24 @@ namespace Quick_Math_Jr_App_for_Kids
                 mat3.Show();
                 this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Không đúng");
+        }
+
+        private void btnquaylai_Click(object sender, EventArgs e)
+        {
+            btnformchinh form = new btnformchinh();
+            form.Show();
+            this.Close();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            btnMat1 lv1 = new btnMat1();
+            lv1.Show();
+            this.Close();
+        }
     }
 }

@@ -28,78 +28,66 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.mnuMat = new System.Windows.Forms.Button();
-            this.mnuThuyen = new System.Windows.Forms.Button();
-            this.mnuNha = new System.Windows.Forms.Button();
-            this.mnuXeBus = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // mnuMat
+            // button1
             // 
-            this.mnuMat.Image = global::Quick_Math_Jr_App_for_Kids.Properties.Resources.images;
-            this.mnuMat.Location = new System.Drawing.Point(448, 338);
-            this.mnuMat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.mnuMat.Name = "mnuMat";
-            this.mnuMat.Size = new System.Drawing.Size(347, 258);
-            this.mnuMat.TabIndex = 7;
-            this.mnuMat.UseVisualStyleBackColor = true;
-            this.mnuMat.Click += new System.EventHandler(this.mnuMat_Click);
+            this.button1.Image = global::Quick_Math_Jr_App_for_Kids.Properties.Resources.maxresdefault__1_;
+            this.button1.Location = new System.Drawing.Point(-3, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(1038, 631);
+            this.button1.TabIndex = 0;
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // mnuThuyen
+            // button2
             // 
-            this.mnuThuyen.Image = global::Quick_Math_Jr_App_for_Kids.Properties.Resources.images__2_;
-            this.mnuThuyen.Location = new System.Drawing.Point(29, 338);
-            this.mnuThuyen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.mnuThuyen.Name = "mnuThuyen";
-            this.mnuThuyen.Size = new System.Drawing.Size(347, 258);
-            this.mnuThuyen.TabIndex = 6;
-            this.mnuThuyen.UseVisualStyleBackColor = true;
-            this.mnuThuyen.Click += new System.EventHandler(this.mnuThuyen_Click);
+            this.button2.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.Location = new System.Drawing.Point(355, 187);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(168, 52);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Bắt Đầu";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // mnuNha
+            // label1
             // 
-            this.mnuNha.Image = global::Quick_Math_Jr_App_for_Kids.Properties.Resources.logo;
-            this.mnuNha.Location = new System.Drawing.Point(448, 47);
-            this.mnuNha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.mnuNha.Name = "mnuNha";
-            this.mnuNha.Size = new System.Drawing.Size(347, 258);
-            this.mnuNha.TabIndex = 5;
-            this.mnuNha.UseVisualStyleBackColor = true;
-            this.mnuNha.Click += new System.EventHandler(this.mnuNha_Click);
-            // 
-            // mnuXeBus
-            // 
-            this.mnuXeBus.Image = global::Quick_Math_Jr_App_for_Kids.Properties.Resources.images__1_;
-            this.mnuXeBus.Location = new System.Drawing.Point(29, 47);
-            this.mnuXeBus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.mnuXeBus.Name = "mnuXeBus";
-            this.mnuXeBus.Size = new System.Drawing.Size(347, 258);
-            this.mnuXeBus.TabIndex = 4;
-            this.mnuXeBus.UseVisualStyleBackColor = true;
-            this.mnuXeBus.Click += new System.EventHandler(this.mnuXeBus_Click);
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.Location = new System.Drawing.Point(189, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(487, 42);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Quick Math Jr App for Kids";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(824, 612);
-            this.Controls.Add(this.mnuMat);
-            this.Controls.Add(this.mnuThuyen);
-            this.Controls.Add(this.mnuNha);
-            this.Controls.Add(this.mnuXeBus);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ClientSize = new System.Drawing.Size(1034, 628);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Form1";
             this.Text = "Giao dien";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button mnuXeBus;
-        private System.Windows.Forms.Button mnuNha;
-        private System.Windows.Forms.Button mnuThuyen;
-        private System.Windows.Forms.Button mnuMat;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label1;
     }
 }
 

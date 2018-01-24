@@ -17,10 +17,30 @@ namespace Quick_Math_Jr_App_for_Kids
             InitializeComponent();
         }
 
+        //int index;
+        //int[] ListIndexDaDung;
+        //int indexdadung;
+
         private void btncaudung_Click(object sender, EventArgs e)
         {
+            //ListIndexDaDung = new int[3];
             btnMat2 mat2 = new btnMat2();
             mat2.Show();
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Không đúng");
+            btnformsai sai = new btnformsai();
+            sai.Show();
+            this.Close();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            btnformchinh form = new btnformchinh();
+            form.Show();
             this.Close();
         }
     }
